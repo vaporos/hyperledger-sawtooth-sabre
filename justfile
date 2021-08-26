@@ -43,6 +43,8 @@ build:
     done
     echo "\n\033[92mBuild Success\033[0m\n"
 
+ci-lint: lint
+
 clean:
     cargo clean
 
